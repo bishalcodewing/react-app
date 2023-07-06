@@ -1,0 +1,116 @@
+.container-fluid {
+    display: flex;
+    width: 264px;
+    align-items: center;
+    gap: 10.4px;
+    flex-shrink: 0;
+}
+
+.navbar-brand {
+    color: #111827;
+    font-family: Ubuntu;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.navbar-links {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 99px;
+    border: 1px solid var(--primary-primary, #2F65D5);
+    background: var(--primary-primary-accent, #DDE8FF);
+}
+
+.icon-link {
+    width: 20px;
+    height: 20px;
+}
+
+.welcome-body {
+    display: flex;
+    width: 1215px;
+    padding: 56px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 3px;
+    background: var(--static-white, #FFF);
+
+    /* Dashboard Hover */
+    box-shadow: 0px 4px 12px 0px rgba(29, 13, 13, 0.04);
+}
+
+.welcome-title {
+    color: var(--font-heading, #111827);
+
+    /* Heading/Large */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardinfo {
+    display: flex;
+    width: 380px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: var(--static-white, #FFF);
+    box-shadow: 0px 4px 12px 0px rgba(29, 13, 13, 0.04);
+}
+
+.cardinfo-body {
+    display: flex;
+    width: 319px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.card-title {
+    color: var(--font-heading, #111827);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    color: var(--font-body, #3C434A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardinfo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+}
+
+.card-link {
+    text-decoration: none;
+}
